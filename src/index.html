@@ -7,10 +7,30 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>layout final</title>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 4 starter </h3>
+    <div class="wrapper">
+      <header class="header">
+      <nav class="header__nav">
+        <div class="header__group-first">
+          <button class="button-header button-header--burger"></button>
+          <div class="header__divider-one"></div>
+          <div class="logo"> <a href="#"><img src="img/Group.svg" alt="Логотип"></a></div>
+        </div>
+        <div class="header__group-second">
+          <div class="header__group-second-one">
+            <button class="button-header button-header--call"></button>
+            <button class="button-header  button-header--chat"></button>
+            <button class="button-header  button-header--profile"></button>    
+          </div>
+          <div class="header__group-second-two">
+            <div class="header__divider-two"></div>
+            <button class="button-header button-header--repair"></button>
+            <button class="button-header button-header--checkstatus"></button>
+          </div>
+      </nav>
+      </header>
+    </div>
   </body>
 </html>
