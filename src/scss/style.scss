@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(button-header.css);
 @import url(logo.css);
+@import url(main.css);
 /* Подключаем альтернативную блочную модель */
 html {
   box-sizing: border-box;
@@ -44,7 +45,7 @@ body {
   max-width: 1426px;
   max-height: 1925px;
   padding: 0;
-  margin-left: auto;
+  margin: auto;
   font-family: 'TT Lakes', sans-serif;
   display: flex;
   flex-direction: column;
